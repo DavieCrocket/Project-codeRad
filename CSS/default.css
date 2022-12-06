@@ -8,11 +8,12 @@
   --font-color-link: #57A6FF;
   --footer: #34314B;
   --footer-base: #2E2B45;
-  --contrast: var(--font-color-light);
+  --contrast: rgba(246, 248, 249, 0.8);
   --success: #64ECF5;
   --danger: #FF8B8D;
   --grad-1: #A1ECFF;
   --grad-2: #7DBCFF;
+  
 /* FontSize */
   --size-10: 0.625rem;
   --size-14: 0.875rem;
@@ -35,7 +36,6 @@ body {
   color: var(--font-color-base);
   margin: 0;
   padding: 0;
-  max-width: 1200px;
 }
 
 *,
