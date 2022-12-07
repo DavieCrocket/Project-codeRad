@@ -13,7 +13,7 @@
   --danger: #FF8B8D;
   --grad-1: #A1ECFF;
   --grad-2: #7DBCFF;
-  
+
 /* FontSize */
   --size-10: 0.625rem;
   --size-14: 0.875rem;
@@ -105,4 +105,8 @@ img {
 
 @media (min-width: 1200px) {
   .container { max-width: 1140px; }
+}
+
+@media (min-width: 768px) {
+  .pricing-table { max-width: 720px; }
 }
