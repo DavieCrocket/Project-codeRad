@@ -84,7 +84,7 @@
   color: var(--white);
   font-size: 1.75rem;
 }
-
+/* Why Me */
 .why-me-wrapper {
   display: flex;
   align-items: center;
@@ -116,7 +116,7 @@
   line-height: 1.3;
   margin-top: 0.5rem;
 }
-
+/* Services */
 .bg-contrast {
   background-color: var(--contrast);
   padding: var(--size-150) 0;
@@ -157,6 +157,7 @@ span.bg-color-4 { background-image: linear-gradient(90deg, #f2a7ca 0%, #c289f4 1
 span.bg-color-5 { background-image: linear-gradient(90deg, #ffc187 0%, #fe93a7 100%); }
 span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7bdcff 100%); }
 
+/* Telling Our Story */
 .video-demo { text-align: center; }
 .video-demo .block-text { padding-right: 0; }
 
@@ -189,7 +190,7 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7bdcff 1
   max-width: 600px;
   border-radius: 8px;
 }
-
+/* Pricing */
 .block-text.pricing-header {
   text-align: center;
   padding-right: 0;
@@ -246,13 +247,14 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7bdcff 1
 }
 
 .plan-btn-wrapper { text-align: center; }
-
+/* Testimonials */
 .testimonial-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: 1fr 1fr;
   gap: var(--size-20);
   margin: 0 auto;
+  margin-bottom: 150px;
 }
 
 .testimonials {
@@ -311,6 +313,8 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7bdcff 1
   font-weight: 600;
   font-size: var(--size-18);
 }
+/* Footer */
+footer.bg-footer { background-color: var(--footer); }
 
 footer .bottom p {
   margin: 0;
@@ -323,7 +327,8 @@ footer .footer-top {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: var(--size-50);
   padding: var(--size-100) 0;
-  background-color: var(--footer);
+  max-width: 960px;
+  margin: auto;
 }
 
 footer .footer-bottom  {
@@ -378,4 +383,24 @@ footer .footer-col { justify-self: center; }
 .post-inner span {
   color: var(--font-color-light);
   font-size: var(--size-10);
+}
+
+.footer-bottom-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-bottom { padding: var(--size-16) }
+
+.copyright p { color: var(--font-color-light) }
+
+.footer-bottom-links ul li {
+  display: inline-block;
+  margin-right: var(--size-10);
+}
+
+.footer-bottom-links ul li a {
+  color: var(--white);
 }
