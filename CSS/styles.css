@@ -14,7 +14,7 @@
   display: none;
 }
 
-.navbar-nav {
+.navbar .nav {
   display: flex;
   align-items: center;
 }
@@ -399,6 +399,7 @@ footer .footer-col { justify-self: center; }
 .footer-bottom-links ul li {
   display: inline-block;
   margin-right: var(--size-10);
+  padding-top: 15px;
 }
 
 .footer-bottom-links ul li a {
