@@ -87,6 +87,7 @@
   color: var(--white);
   font-size: 1.75rem;
 }
+
 /* Why Me */
 .why-me-wrapper {
   display: flex;
@@ -98,7 +99,7 @@
 }
 
 .why-me-wrapper p {
-  padding-right: 100px;
+  padding-right: var(--size-100);
 }
 
 .why-me-wrapper .block-text {
@@ -118,6 +119,7 @@
   line-height: 1.3;
   margin-top: 0.5rem;
 }
+
 /* Services */
 .bg-contrast {
   background-color: var(--contrast);
@@ -216,6 +218,7 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7bdcff 1
 }
 
 .price-card .checked { color: var(--success); }
+
 .price-card .times { color: var(--danger); }
 
 .price-card.featured {
@@ -250,6 +253,7 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7bdcff 1
 }
 
 .plan-btn-wrapper { text-align: center; }
+
 .plan-btn-wrapper a { width:100%; }
 
 /* Testimonials */
@@ -318,6 +322,7 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7bdcff 1
   font-weight: 600;
   font-size: var(--size-18);
 }
+
 /* Footer */
 footer.bg-footer { background-color: var(--footer); }
 
@@ -370,7 +375,6 @@ footer .footer-col { justify-self: center; }
 
 .services-wrapper p {
   color: #858497;
-  padding: 0 750px;
 }
 .services-wrapper h5 { margin-bottom: initial; }
 
@@ -416,7 +420,57 @@ footer .footer-col { justify-self: center; }
 .footer-bottom-links ul li a {
   color: var(--white);
 }
+/*
+.sticky-warpper { margin: auto; }
 
+.sticky-container-1 {
+  display: flex;
+  background-color: blue;
+  background-image: url("../assets/images/StickyFooter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 12.5rem;
+  padding-right: var(--size-30);
+  justify-content: space-around;
+  color: white;
+  position: fixed;
+  bottom: var(--size-40);
+  right:25rem;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 100;
+  height: 75px;
+}
+
+.sticky-container-1 ul {
+  padding: 0 30px;
+  text-align: start;
+}
+
+.sticky-container-1 ul li {
+  padding-right: 30px;
+  text-align: start;
+  position: relative;
+  top: 15px;
+}
+
+.sticky-container-1 button {
+  width: 125px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  top: 12px;
+  border-radius: 8px;
+  color: var(--black);
+  font-weight: 700;
+  font-size: inherit;
+}
+
+.sticky-container-1 button a {
+  text-align: start;
+}
+*/
 #scrollUp {
   background-color: transparent;
   background-image: linear-gradient(90deg, #9ccdfe 0%, #94aafd 100%);
@@ -426,7 +480,7 @@ footer .footer-col { justify-self: center; }
   width: var(--size-50);
   line-height: var(--size-50);
   position: fixed;
-  bottom: var(--size-30);
+  bottom: var(--size-40);
   right: var(--size-30);
   text-align: center;
   border-radius: 8px;
